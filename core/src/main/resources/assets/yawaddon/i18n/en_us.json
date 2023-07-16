@@ -1,0 +1,18 @@
+{
+    "yawaddon": {
+        "settings": {
+            "name": "Yaw Addon",
+            "enabled": {
+                "name": "Enabled"
+            },
+            "max": {
+                "name": "Max decimal digits"
+            }
+        },
+        "hudWidget": {
+            "yaw_widget": {
+                "name": "Head Rotation"
+            }
+        }
+    }
+}

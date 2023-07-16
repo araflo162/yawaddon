@@ -10,14 +10,14 @@ version = "1.0.0"
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "me.araflo162.yaw" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "yawaddon"
+        displayName = "Yaw"
+        author = "araflo162"
+        description = "Yaw display"
         minecraftVersion = "*"
-        version = System.getenv().getOrDefault("VERSION", "0.0.1")
+        version = System.getenv().getOrDefault("VERSION", "1.0.0")
     }
 
     minecraft {
@@ -43,7 +43,7 @@ labyMod {
     }
 
     addonDev {
-        productionRelease()
+        snapshotRelease()
     }
 }
 
